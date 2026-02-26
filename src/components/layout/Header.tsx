@@ -68,9 +68,7 @@ export function Header({ className }: HeaderProps) {
     { name: 'Find Donors', href: '/donors', icon: Search },
     { name: 'Requested Blood', href: '/requested', icon: ClipboardList },
     { name: 'Register as Donor', href: '/register', icon: UserPlus },
-    { name: 'Organisations', href: '/Organisations', icon: Building2 },
     { name: 'Help & Support', href: '/help', icon: User },
-    { name: 'Blood Info', href: '/Info', icon: InfoIcon },
   ];
 
   return (
